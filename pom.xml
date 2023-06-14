@@ -51,13 +51,6 @@
 			<artifactId>lombok</artifactId>
 			<version>${org.projectlombok.version}</version>
 		</dependency>
-
-		<!--Jit pack dependency-->
-<!--		<dependency>-->
-<!--			<groupId>com.github.User</groupId>-->
-<!--			<artifactId>Repo</artifactId>-->
-<!--			<version>Tag</version>-->
-<!--		</dependency>-->
 	</dependencies>
 
 	<build>
@@ -107,13 +100,5 @@
 		</plugins>
 	</build>
 	<!--  we need to delete the spring-boot-maven-plugin to tell maven to not generate an executable jar for the library	-->
-
-	<!--JitPack confi-->
-	<repositories>
-		<repository>
-			<id>jitpack.io</id>
-			<url>https://jitpack.io</url>
-		</repository>
-	</repositories>
 
 </project>
